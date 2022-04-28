@@ -1,27 +1,7 @@
 {
-    "name": "employee-tracker",
-    "version": "1.0.0",
-    "description": "",
-    "main": "server.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "node server.js"
-    },
-    "repository": {
-        "type": "git",
-        "url": ""
-    },
-    "author": "",
-    "license": "",
-    "bugs": {
-        "url": ""
-    },
-    "homepage": "",
     "dependencies": {
-        "console.table": "^0.10.0",
-        "inquirer":"^8.2.1",
-        "inquirer-confirm":"^2.0.7",
-        "mysql":"^2.18.1",
-        "mysql2": "^2.3.3"     
+      "console.table": "^0.10.0",
+      "inquirer": "^8.2.0",
+      "mysql2": "^2.3.3"
     }
-}
+  }
