@@ -1,6 +1,6 @@
-SOURCE db/schema.sql;
+USE employee_db;
 
-INSERT INTO department (dept_name)
+INSERT INTO department (name)
 VALUES
 ('HR'),
 ('Customer Service'),
@@ -8,7 +8,7 @@ VALUES
 ('IT');
 
 
-INSERT INTO employee_role (title, salary, dept_id)
+INSERT INTO role (title, salary, department_id)
 VALUES
 ('HR Manager', 65000, 1),
 ('Customer Service Rep', 42000, 2),
